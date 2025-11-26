@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPOPUP</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js" type="module" defer></script>
+</head>
+<body>
+    
+<button id="openModal">Klik to Write</button>
+
+<div id="modal" class="modal hidden">
+  <div class="modalContent">
+    <h2>oP pOp Up</h2>
+
+    <form id="messageForm">
+      <input type="text" id="nameInput" placeholder="Nickname" name="nickname">
+      <input type="email" id="emailInput" placeholder="Email" name="email">
+      <textarea placeholder="Write your message..." name="message"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <button id="closeModal" class="closeBtn">Close</button>
+  </div>
+</div>
+
+</body>
+</html>
